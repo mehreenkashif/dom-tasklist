@@ -54,8 +54,8 @@ function bindDeleteButtonToAll() {
   }
 }
 
-//document.getElementById("clear").addEventListener("onclick", clearTask);
+document.getElementById("clear").addEventListener("onclick", clearTask);
 
-//function clearTask() {
-  //collection.innerHTML = "";
-//}
+function clearTask() {
+  collection.innerHTML = "";
+}
